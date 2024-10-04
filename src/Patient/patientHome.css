@@ -1,0 +1,108 @@
+  /* Header styles */
+  header {
+    background-color: #391479 !important;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header{
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+  }
+  header h1 {
+    margin: 0;
+  }
+  
+  header .profile {
+    font-weight: bold;
+  }
+  .profile a{
+    color: white;
+    text-decoration: none;
+  }
+  .profile a:hover{
+    color: #b691fa;
+  }
+  
+  /* Main content styles */
+  .main-content {
+    display: flex;
+    flex: 1;
+  }
+  
+  /* Sidebar styles */
+  .sidebar {
+    width: 200px;
+    background: linear-gradient(to bottom, #6238a6, #5625ab) !important;
+    color: white;
+    padding: 1rem;
+    height: 100%;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 69px;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    margin: 15px 0;
+    padding-bottom: 25px;
+  }
+  
+  .sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    font-size: 24px;
+  }
+  
+  .sidebar ul li a:hover {
+    background-color: #7753b4 !important;
+    padding: 10px;
+    border-radius: 10px !important;
+    transition: background-color 0.3s !important;
+  }
+  
+  /* Content area styles */
+  .content {
+    margin-left: 220px;
+    padding: 1.5rem;
+    flex: 1;
+    background-color: white;
+    min-height: 100vh;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    top: 69px;
+  }
+  
+  .divForLine {
+    height: 1px;
+    background-color: #ccc; /* Light grey color for the line */
+    width: 100%;
+    margin: 20px 0; /* Adds space above and below the line */
+    border: none;
+  }
+
+  .logout-btn{
+    padding: 10px 20px;
+    border: none;
+    background-color: white;
+    color: rgb(158, 13, 216);
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: medium;
+    font-weight: bold;
+  }
+
+  .logout-btn:hover {
+    background-color: #c5b4cb;
+  }

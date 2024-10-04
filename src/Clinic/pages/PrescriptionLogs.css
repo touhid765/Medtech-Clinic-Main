@@ -1,0 +1,54 @@
+.prescriptions-container {
+  padding: 20px;
+  max-width: 1000px;
+  margin: auto;
+  padding-top: 50px;
+}
+
+.prescriptions-container h1 {
+  text-align: center;
+}
+
+.prescription-details {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #8f02f6;
+  border-radius: 5px;
+}
+
+.prescription-info {
+  margin-bottom: 15px;
+}
+
+.prescription-info p {
+  margin: 5px 0;
+}
+
+.medications-section {
+  margin-top: 20px;
+}
+
+.medications-section h3 {
+  margin-bottom: 10px;
+}
+
+.medications-section table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.medications-section th,
+.medications-section td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.medications-section th {
+  background-color: #f4f4f4;
+}
+
+.error {
+  color: red;
+  text-align: center;
+}

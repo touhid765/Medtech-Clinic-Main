@@ -1,0 +1,86 @@
+
+  
+  /* Dashboard container */
+  .dashboard {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #007bff;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  header .profile {
+    font-weight: bold;
+  }
+  
+  /* Main content styles */
+  .main-content {
+    display: flex;
+    flex: 1;
+  }
+  
+  /* Sidebar styles */
+  .sidebar {
+    width: 200px;
+    background-color: #343a40;
+    color: white;
+    padding: 1rem;
+    height: 100%;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    margin: 15px 0;
+  }
+  
+  .sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+  }
+  
+  .sidebar ul li a:hover {
+    background-color: #007bff;
+    padding: 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  /* Content area styles */
+  .content {
+    margin-left: 220px;
+    padding: 1.5rem;
+    flex: 1;
+    background-color: white;
+    min-height: 100vh;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  .divForLine {
+    height: 1px;
+    background-color: #ccc; /* Light grey color for the line */
+    width: 100%;
+    margin: 20px 0; /* Adds space above and below the line */
+    border: none;
+  }

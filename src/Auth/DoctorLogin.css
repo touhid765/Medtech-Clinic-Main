@@ -1,0 +1,110 @@
+.doctor-login-page {
+  /* background-image: url('../HomePage/assets/Doctor-and-family.jpg'); */
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  
+}
+.doctor-login-right-container .doctor-login-left-container{
+  flex: 1;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.doctor-login-right-container {
+  background-color: rgb(255, 255, 255);
+  padding: 40px;
+  border-radius: 0px;
+  text-align: center;
+  width: 50vw;
+  margin-bottom: 0;
+}
+.doctor-login-left-container{
+  background: linear-gradient(to bottom, #6f0de0, #986add);
+  width: 50vw;
+  margin-bottom: 0;
+  text-align: center;
+  color: white;
+}
+.doctor-login-left-container h2{
+  padding-top: 90px;
+  font-size: 60px;
+  color: white;
+}
+.doctor-login-left-container h3{
+  font-size: 20px;
+}
+
+.doctor-login-right-container h2 {
+  font-size: 3rem;
+  color: rgb(110, 45, 213);
+}
+
+.doctor-login-form .doctor-form-group {
+  margin-bottom: 15px;
+}
+.doctor-form-group {
+  align-items: center;
+  
+}
+
+.doctor-login-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  text-align: left;
+  font-size: 20px;
+  margin-left: 125px;
+}
+
+.doctor-login-form input {
+  width: 60% !important;
+  padding: 8px;
+  border: 1px solid #9001f6 !important;
+  border-radius: 4px;
+}
+
+.login-btn {
+  width: 63.2%;
+  padding: 11px;
+  background-color: #924bdd;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 25px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.login-btn:hover {
+  background-color: #7c22d5;
+}
+
+
+.doctor-login-left-container button{
+margin-right: 40vw;
+margin-top: 13px;
+}
+.hm-btn{
+background-color: #7018d4;
+border: none;
+font-size: 18px;
+
+}
+.hm-btn a{
+color: white;
+text-decoration: none;
+}
+.doctor-login-form{
+margin-top: 90px;
+}
+.forgot-btn{
+background-color: white;
+border: none;
+cursor: pointer;
+color: rgb(89, 13, 230);
+font-size: 15px;
+}
